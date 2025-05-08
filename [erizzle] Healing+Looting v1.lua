@@ -11,7 +11,7 @@ YardsBehindMaster = 15 -- This is how many yards behind the master the slave mus
 YardsToHealUnits = 41 -- This is how many yards away from the player the BOT will target other players to heal
 
 function FindMaster()
-    FoundMaster = FindPlayerByName(MasterName)
+    FoundMaster = FindPlayerByName(Thorgal)
 end
 
 function DistanceOfMeshToMaster()
