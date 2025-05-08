@@ -6,7 +6,7 @@ Player = GetPlayer() -- Returns the current Player wUnit
 Units = GetUnitsList() -- Returns a list of all current wUnits (includes players)
 Players = GetPlayersList() -- Returns a list of all current players
 
-MasterName = "Testiemctest" -- You would change this to the name of your master char!
+MasterName = "Gymleea" -- You would change this to the name of your master char!
 YardsBehindMaster = 10 -- This is how many yards behind the master the slave must stay!
 
 function FindMaster()
