@@ -6,9 +6,9 @@ Player = GetPlayer() -- Returns the current Player wUnit
 Units = GetUnitsList() -- Returns a list of all current wUnits (includes players)
 Players = GetPlayersList() -- Returns a list of all current players
 
-MasterName = "Testiemctest" -- You would change this to the name of your master char!
+MasterName = "Thorgal" -- You would change this to the name of your master char!
 YardsBehindMaster = 15 -- This is how many yards behind the master the slave must stay!
-YardsToHealUnits = 41 -- This is how many yards away from the player the BOT will target other players to heal
+YardsToHealUnits = 40 -- This is how many yards away from the player the BOT will target other players to heal
 
 function FindMaster()
     FoundMaster = FindPlayerByName(MasterName)
